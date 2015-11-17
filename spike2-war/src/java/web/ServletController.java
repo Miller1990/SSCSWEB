@@ -76,7 +76,7 @@ public class ServletController extends HttpServlet {
                 request.setAttribute("jsonObject", gsonList);
                 rd.forward(request, response);
             } else {
-                System.out.println("LISTA VUOTA in servlet biblio");
+                System.out.println("Lista Empty in servlet biblio");
             }
 
             // out.println("<h1>Servlet BoostrapServlet at " + request.getContextPath() + "</h1>");
